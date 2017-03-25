@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+    <test name="Test">
+        <parameter name="section" value="Телевизоры"/>
+        <parameter name="minYear" value="2013"/>
+        <parameter name="maxPrice" value="1000"/>
+        <parameter name="producer" value="Samsung"/>
+        <parameter name="minDiag" value="39"/>
+        <parameter name="maxDiag" value="42"/>
+        <classes>
+            <class name="demo.tests.TestTvsOnOnliner"/>
+        </classes>
+    </test>
+</suite>
